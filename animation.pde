@@ -9,7 +9,7 @@ void setup () {
 void draw (){
   
   fill (random(255), random(255), random(255));
-  rect(x,y,random(100), random(100)); 
+  rect(x,y,random(100), random(100),random(100),random(100)); 
   x=dx+x;
   y=dy+y;
   if (x > 500)
